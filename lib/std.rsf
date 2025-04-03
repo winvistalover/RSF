@@ -1,0 +1,6 @@
+append lib/stdvars.rsf
+
+void exit()
+{
+    stopparse << errno
+}

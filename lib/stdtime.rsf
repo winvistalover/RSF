@@ -1,0 +1,14 @@
+void _init()
+{
+    var Year << 2025
+}
+
+void Date()
+{
+    print("The current year is: " << (Year) << (endl))
+}
+
+void Wait()
+{
+    wait << 700
+}
