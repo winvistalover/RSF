@@ -1,0 +1,30 @@
+void start() {
+    if (loops) == "0" {loop->_changeto1();};
+    if (loops) == "1" {loop->_changeto2();};
+    if (loops) == "2" {loop->_changeto3();};
+    if (loops) == "3" {loop->_changeto4();};
+}
+
+void _changeto1() {
+    str loops = "1";
+    print((loopmsg) & (endl));
+    wait(700);
+}
+
+void _changeto2() {
+    str loops = "2";
+    print((loopmsg) & (endl));
+    wait(700);
+}
+
+void _changeto3() {
+    str loops = "3";
+    print((loopmsg) & (endl));
+    wait(700);
+}
+
+void _changeto4() {
+    str loops = "4";
+    print((loopmsg) & (endl));
+    wait(700);
+}

@@ -1,0 +1,12 @@
+void _init() {
+    str inputstr = "Type help for help > ";
+}
+
+void userinput() {
+    print((inputstr));
+    getcin(cin);
+    if (cin) == "looptest" {looptest();};
+    if (cin) == "returntest" {returntest();};
+    if (cin) == "exit" {break;};
+    input->userinput();
+}

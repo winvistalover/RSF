@@ -1,26 +1,29 @@
-void main()
-{
-    var HelloWorld = "Hello, World!"
-    print(&(HelloWorld) & (endl))
-    getcin(cin)
-    if (cin) == "looptest" -> looptest
-    if (cin) == "returntest" -> returntest
+append input
+append loop
+
+void main() {
+    str hello = "Hello, World!";
+    str loops = "0";
+    int testint = 256;
+    print((hello) & (endl));
+    input->userinput();
 }
 
-void returntest()
-{
-    returna()
-    print("returna returned: " & (return) & (endl))
+void returntest() {
+    returnhello();
+    print("returnhello returned: " & (return) & (endl));
 }
 
-void returna()
-{
-    <- Hello
+void returnhello() {
+    print("returnhello: I'm going to return Hello!" & (endl));
+    return Hello;
+    break;
+    print("You're not supposed to see this..." & (endl));
 }
 
-void looptest()
-{
-    print("Hello, World!" & (endl))
-    wait(700)
-    looptest()
+void looptest() {
+    if (loops) == "4" {break;};
+    str loopmsg = "Hello, World!";
+    loop->start();
+    looptest();
 }

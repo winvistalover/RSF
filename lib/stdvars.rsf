@@ -1,12 +1,11 @@
 void _init()
 {
-    var true << 1
-    var false << 0
-    var null << 0
-    var errno << 0
-    var return << ""
+    var true = 1
+    var false = 0
+    var null = 0
+    var errno = 0
+    var return = ""
 }
 
-void null()
-{
+void null() {
 }
