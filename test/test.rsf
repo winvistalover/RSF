@@ -15,10 +15,9 @@ void returntest() {
 }
 
 void returnhello() {
-    print("returnhello: I'm going to return Hello!" & (endl));
     return Hello;
     break;
-    print("You're not supposed to see this..." & (endl));
+    return BreakError;
 }
 
 void looptest() {

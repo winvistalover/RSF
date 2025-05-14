@@ -22,7 +22,9 @@ if [ $? -eq 0 ]; then
     echo -e "\033[44mWAITING...\033[0m Copying to /usr/bin...\n  -> cp ./rsf /usr/bin/rsf"
     cp ./rsf /usr/bin/rsf
     echo -e "\033[44mWAITING...\033[0m Running RSF...\n  -> ./rsf"
-    ./rsf
+    cd test
+    rsf test.rsf
+    cd ..
 else
     echo -e "\033[41mFAILED!\033[0m Compilation error."
 fi
